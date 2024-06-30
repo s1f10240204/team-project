@@ -105,3 +105,78 @@
     border: 2px solid #eee;
     padding: 4px 8px;
   }
+
+  .button a {
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: rgb(149,202,252);
+    background: linear-gradient(270deg, rgba(149,202,252,1) 0%, rgba(107,182,255,1) 100%);
+}
+.button a:hover {
+    background: rgb(117,188,255);
+    background: linear-gradient(270deg, rgba(117,188,255,1) 0%, rgba(62,159,252,1) 100%);
+}
+
+h2{
+    border-bottom:solid;
+}
+
+.sidebar{
+    border-left:solid #c2bebe;
+    padding-left: 10px;
+
+}
+
+.rankcolor1{
+    border:solid;
+    width:35px;
+    background-color: gold;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+}
+
+.rankcolor2{
+    border:solid;
+    width:35px;
+    background-color:silver;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+}
+
+.rankcolor3{
+    border:solid;
+    width:35px;
+    background-color:#ac6b25;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+}
+
+a.irokesi:link{
+    color: #333;
+}
+
+a.irokesi:visited{
+    color: #333;
+}
+
+a.irokesi:hover{
+    border-bottom:solid thin #333;
+}
+a.irokesi{
+    text-decoration: none;
+}
